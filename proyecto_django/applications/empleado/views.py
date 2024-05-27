@@ -31,7 +31,7 @@ class listEmpleadoByKword(ListView):
         rtaLista = Empleado.objects.filter(
             nombreEmp = x
         )
-        return rtaLista()
+        return rtaLista
     
 class listAllEmpleadosPag(ListView):
     template_name = 'empleado/list_all_pag.html'
